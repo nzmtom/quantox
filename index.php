@@ -89,7 +89,7 @@ $(document).ready(function() {
 	        <div class="container">
 			    <div class="col-lg-4 col-md-4 col-sm-4">
 	            <div class="">
-			        <img class="img-responsive" alt="left" src="file:///D:/ZADATAKQU/img/leftimg.jpg"> </img>
+			        <img class="img-responsive" alt="left" src="img/leftimg.jpg"> </img>
 		        </div>
 	        </div>
 			<br>
