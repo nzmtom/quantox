@@ -1,0 +1,9 @@
+.pozadina
+{
+    background-color: black;
+    background: url(hugozadatak/img/Pozadina.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

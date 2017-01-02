@@ -48,18 +48,17 @@ $(document).ready(function() {
 		$('.text').attr('disabled','field');
 		
 		//show the loading sign
-		//	window.open("file:///D:/ZADATAKQU/zadatak3.php","_self");
-		window.open("file:///D:/ZADATAKQU/zadatak2.php","_self");
+		//	window.open("zadatak3.php","_self");
+		window.open("zadatak2.php","_self");
 		//start the ajax
 		$.ajax({
-			// processes the data and send mail
-			url: "survey.quantox.tech/frontend",	
+			url: "survey.quantox.tech/frontend/?apikey=51d301673100d7954388bf15d87f0b043c0f151b" ,	
 			
-			//GET method 
-			type: "GET",
+			//POST method 
+			type: "POST",
 
 			//pass the data			
-			data: data,		
+			dataType: "validator.json",		
 			
 			// cache the page
 			cache: true,
@@ -68,11 +67,11 @@ $(document).ready(function() {
 			success: function (html) {				
 				//if index.php returned 1/true (send mail success)
 				if (html==1) {					
-					window.open("file:///D:/ZADATAKQU/zadatak4.php","_self");
+					window.open("zadatak4.php","_self");
 					
 				//if index.php returned 0/false (send mail failed)
 				} else 
-                    window.open("file:///D:/ZADATAKQU/zadatak5.php","_self");					
+                    window.open("zadatak5.php","_self");					
 			}		
 		});
 		
@@ -96,7 +95,7 @@ $(document).ready(function() {
 	        <div class="container">
 		        <div class="row">
 			        <div class="col-lg-8 col-md-8 col-sm-8">
-                        <form  class="form" method="post" action="file:///D:/ZADATAKQU/zadatak2.php">
+                        <form  class="form" method="post" action="zadatak2.php">
 					        <div class="row">
 						        <div class="col-lg-7">
 							        <div class="element">
@@ -136,17 +135,15 @@ $(document).ready(function() {
 						<div class="col-lg-2">
 							<input type="submit" name="submit" value="NEXT" id="submit" class="btn btn-theme btn-block btn-md" tabindex="7">
 								
-						</div>
+						 </div>
 					</div>
-			
-	</div>
-
-			</div>
+			    </div>
+             </div>
 		</div>
 	</div>
 </div>
-		</div>
-	</div>	
+</div>
+</div>	
 </section>
 
 </html>

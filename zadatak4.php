@@ -25,7 +25,7 @@
 	            <div class="container">
 			        <div class="col-lg-4 col-md-4 col-sm-4">
 	                    <div class="">
-			                 <img class="img-responsive" alt="left" src="file:///D:/ZADATAKQU/img/leftimg.jpg"> </img>
+			                 <img class="img-responsive" alt="left" src="img/leftimg.jpg"> </img>
 		                </div>
 	                </div>
 			        <br>
@@ -34,7 +34,7 @@
 			                <div class="col-lg-8 col-md-8 col-sm-8">
 							    <h3 class="testload"> CONGRATULATIONS! </h3>
 								  <h3 class="testload"> THANK YOU FOR YOUR TIME </h3>
-                                <img class="img-responsive spinner" src="file:///D:/ZADATAKQU/img/ok.png">
+                                <img class="img-responsive spinner" src="img/ok.png">
 			                </div>
 		                </div>
 	                </div>

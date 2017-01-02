@@ -15,11 +15,6 @@
 <script src="js/jquery.min.js"></script>
 
 <script>
-$('#button').button();
-
-$('#lo').click(function() {
-    $(this).html('<img src="file:///D:/ZADATAKQU/img/loading.gif" />');
-}); 
 
 </script>
 	
@@ -33,7 +28,7 @@ $('#lo').click(function() {
 		<div class="col-lg-12 col-md-12 col-sm-12">
 	        <div class="container">
 			    <div class="col-lg-4 col-md-4 col-sm-4">
-	                <img class="img-responsive" alt="left" src="file:///D:/ZADATAKQU/img/leftimg.jpg"> </img>
+	                <img class="img-responsive" alt="left" src="img/leftimg.jpg"> </img>
 		        </div>
 			    <br>
 	            <div class="container">
@@ -66,11 +61,11 @@ $('#lo').click(function() {
 						        </div>
 							    <div class="col-lg-6 col-md-6 col-sm-6">
 								     <!-- keep all the answers in index.php -->
-							            <img class="img-responsive size" alt="left" src="file:///D:/ZADATAKQU/img/left.png" onclick="javascript:history.go(-1)"> </img>   
+							            <img class="img-responsive size" alt="left" src="img/left.png" onclick="javascript:history.go(-1)"> </img>   
 						        </div>
 				                <div class="col-lg-6 col-md-6 col-sm-6">
-						            <a href="file:///D:/ZADATAKQU/zadatak3.php">
-							            <img class="img-responsive size" id="loading" alt="right" src="file:///D:/ZADATAKQU/img/right.png"> </img>
+						            <a href="zadatak3.php">
+							            <img class="img-responsive size" id="loading" alt="right" src="img/right.png"> </img>
 							        </a>	
 						         </div>	
 					        </div>
